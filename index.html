@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Pompous Jaffa Art Space</title>
-    <script type="module" crossorigin src="/jaffa-gallery/assets/index-d5dhlnJ7.js"></script>
-    <link rel="stylesheet" crossorigin href="/jaffa-gallery/assets/index-DSExDHF0.css">
+    <script type="module" crossorigin src="/jaffa-gallery/assets/index-BDxZYz2O.js"></script>
+    <link rel="stylesheet" crossorigin href="/jaffa-gallery/assets/index-mkwlKgIS.css">
   </head>
   <body>
+    <script>
+      (function () {
+        var l = localStorage.getItem("lang");
+        if (!l) l = (navigator.language || "").startsWith("he") ? "he" : "en";
+        if (l === "he") {
+          document.documentElement.lang = "he";
+          document.documentElement.dir = "rtl";
+        }
+      })();
+    </script>
     <div id="root"></div>
   </body>
 </html>
