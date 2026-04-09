@@ -4,6 +4,8 @@ Website for a private art salon in Old Jaffa, built with React + Vite and deploy
 
 **Live site:** [jaffa-art-salon.com](https://jaffa-art-salon.com)
 
+> The repository must remain **public** for GitHub Pages to serve the site.
+
 ## Stack
 
 - React 18
